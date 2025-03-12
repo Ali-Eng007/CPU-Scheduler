@@ -1,0 +1,98 @@
+ //Name : Ali Al-Saed 
+ //ID : 1210198
+ //Section : 2
+
+
+
+1-Preemptive Priority
+2-Non-preemptive Priority 
+3-Multilevel Feedback Queue  
+4-Exit 
+Enter your choice : 1
+Preemptive Priority Algorithm  
+---------------------------------------------------------------------
+P1-->1--P2-->4--P4-->6--Finish{P5}-->16--P4-->22--P6-->29--P2-->36--P1-->42--P4-->48--P3-->53--P7-->59--P6-->66--P2-->72--P1-->78--Finish{P4}-->80--P3-->84--P7-->91--P6
+-->97--P2-->102--Finish{P3}-->107--Finish{P1}-->109--P5-->116--P7-->122--Finish{P6}-->124--Finish{P2}-->126--Finish{P5}-->129--Finish{P7}-->138--Finish{P4}-->154--P1
+-->158--P3-->164--P1-->173--P6-->179--Finish{P3}-->187--Finish{P1}-->189--P6-->197--Finish{P5}-->207--P6-->213--P2-->223--Finish{P6}-->225--P7-->228--P2
+-->234--P7-->244--Finish{P2}-->251--P7-->256--P4-->264--Finish{P7}-->274--Finish{P4}-->282--P1-->288--P3-->296--End{P1}-->300--
+
+
+P5|	Process TAT :201|	Process TWT:132|
+
+P4|	Process TAT :278|	Process TWT:185|
+
+P3|	Process TAT :184|	Process TWT:136|
+
+P1|	Process TAT :300|	Process TWT:249|
+
+P6|	Process TAT :218|	Process TWT:166|
+
+P2|	Process TAT :250|	Process TWT:176|
+
+P7|	Process TAT :266|	Process TWT:190|
+
+Average Waiting Time: 176.28571428571428
+Average Turnaround Time: 242.42857142857142
+---------------------------------------------------------------------
+1-Preemptive Priority
+2-Non-preemptive Priority 
+3-Multilevel Feedback Queue  
+4-Exit 
+Enter your choice : 2
+ Non Preemptive Priority Algorithm with 
+---------------------------------------------------------------------
+Finish{P1}-->15--Finish{P5}-->25--P4-->27--P6-->29--P4-->31--P6-->33--P4-->35--P6-->37--P4-->39--Finish{P5}-->
+49--P4-->51--P6-->53--P4-->55--P6-->57--P4-->59--P6-->61--P4-->63--Finish{P5}-->73--P4-->75--P6-->77--P4-->79--P6-->81
+--Finish{P4}-->81--Finish{P6}-->83--P2-->85--P7-->87--Finish{P5}-->97--P6-->99--P4-->101--P6-->103--P4
+-->105--P6-->107--P4-->109--P6-->111--Finish{P5}-->121--P6-->123--P4-->125--P6-->127--P4-->129--P6-->131--P4-->133--P6-->135--Finish{P4}-->
+135--Finish{P5}-->145--Finish{P6}-->155--Finish{P4}-->171--Finish{P5}-->181--Finish{P6}-->203--Finish{P5}-->213--P4-->215--P6-->217--P4-->219--P6-->
+221--P4-->223--P6-->225--P4-->227--P6-->229--Finish{P5}-->237--P4-->239--P6-->241--P4-->243--P6-->245--P4-->247--P6-->249--P4-->251--Finish{P5}-->
+261--P4-->263--P6-->265--P4-->267--P6-->269--Finish{P4}-->269--Finish{P6}-->271--P7-->273--P2-->275--Finish{P5}-->285--P6-->287--P4-->289--P6-->291--P4-->
+293--P6-->295--P4-->297--P6-->299--P4-->301--End{P5}-->300--
+
+
+P1|	Process TAT :15|	Process TWT:0|
+
+P5|	Process TAT :294|	Process TWT:39|
+
+P6|	Process TAT :292|	Process TWT:182|
+
+P4|	Process TAT :297|	Process TWT:165|
+
+Average Waiting Time: INF 
+Average Turnaround Time: INF 
+---------------------------------------------------------------------
+1-Preemptive Priority
+2-Non-preemptive Priority 
+3-Multilevel Feedback Queue  
+4-Exit 
+Enter your choice : 3
+Multilevel Feedback Queue 
+---------------------------------------------------------------------
+P1-->8-->P2-->16-->P3-->24-->P4-->32-->P5-->40-->P6-->48-->P7-->56-->Finish{P1}-->63--Finish{P2}-->78--Finish{P3}-->84--Finish{P4}-->92
+--Finish{P6}-->106--Finish{P5}-->108--P7-->124-->P1-->132-->P3-->140-->P2-->148-->P4-->156-->P6-->164-->P5-->172-->Finish{P7}-->176--Finish{P1}-->183--Finish{P3}
+-->189--Finish{P2}-->204--Finish{P6}-->218--Finish{P4}-->226--Finish{P5}-->228--P7-->236-->P1-->244-->P3-->252-->P2-->260-->P6-->268-->P4-->276-->P5-->284-->P7-->300-->End{P1}-->300--
+
+
+P1|	Process TAT :300|	Process TWT:237|
+
+P2|	Process TAT :259|	Process TWT:135|
+
+P3|	Process TAT :249|	Process TWT:183|
+
+P4|	Process TAT :272|	Process TWT:157|
+
+P6|	Process TAT :261|	Process TWT:189|
+
+P5|	Process TAT :278|	Process TWT:185|
+
+P7|	Process TAT :292|	Process TWT:200|
+
+Average Waiting Time: 183.71428571428572
+Average Turnaround Time: 273.0
+---------------------------------------------------------------------
+1-Preemptive Priority
+2-Non-preemptive Priority 
+3-Multilevel Feedback Queue  
+4-Exit 
+Enter your choice : 4
